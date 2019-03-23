@@ -19,7 +19,7 @@ router.post("/post", (req, res) => {
   content
     .save()
     .then(() => {
-      res.render("ideas")
+      res.redirect("ideas")
     })
     .catch(err => {
       console.error(err)
