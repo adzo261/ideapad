@@ -1,0 +1,25 @@
+{
+  "name": "ideapad",
+  "version": "1.0.0",
+  "description": "A platform to get or share coding project ideas",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aditya-zope",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.4.19",
+    "path": "^0.12.7",
+    "showdown": "^1.9.0",
+    "simplemde": "^1.11.2"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}

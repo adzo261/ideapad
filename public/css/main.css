@@ -1,0 +1,85 @@
+body {
+  font-family: "Judson", serif;
+}
+
+.logo {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  margin-top: 35vh;
+  font-size: 10vh;
+}
+.logo-sm {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
+  font-size: 5vh;
+}
+.home:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.white-btn {
+  border: solid #2589bd;
+  background: white;
+  font-weight: 600;
+  color: #2589bd;
+}
+.blue-btn {
+  border: solid white;
+  background: #2589bd;
+  font-weight: 600;
+  color: white;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.name {
+  color: white;
+}
+.name:hover {
+  color: black;
+}
+.fas {
+  color: red;
+  border: none;
+}
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
+}
